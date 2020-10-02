@@ -59,6 +59,10 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  font-weight: bold;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -227,6 +231,10 @@
   right: 48px;
 }
 
+.feynman__link:hover {
+  font-weight: bold;
+}
+
 .kaufman {
   display: flex;
   align-items: center;
@@ -327,6 +335,10 @@
   text-decoration: none;
   color: white;
   display: flex;
+}
+
+.footer__link:hover {
+  color: #2f80ed;
 }
 
 .footer__line {
