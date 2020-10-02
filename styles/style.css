@@ -19,14 +19,12 @@
   display: flex;
   align-items: center;
   position: relative;
-  border: 1px solid red;
 }
 
 .logo {
   width: 183px;
   height: 32px;
   z-index: 10;
-  border: 1px solid red;
 }
 
 .logo_place_header {
@@ -42,7 +40,6 @@
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .header__subtitle {
@@ -54,7 +51,6 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 1000;
-  border: 1px solid red;
 }
 
 .header__link {
@@ -68,7 +64,6 @@
   right: 0;
   bottom: 0;
   z-index: 2;
-  border: 1px solid red;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -80,7 +75,6 @@
   right: 0;
   top: 64px;
   z-index: 1;
-  border: 1px solid red;
 }
 
 .description {
@@ -93,14 +87,10 @@
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__text {
   margin: 0;
   padding: 0;
   line-height: 1.2;
@@ -120,7 +110,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
 .two-columns__paragraph:last-of-type {
@@ -137,7 +126,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 .section-title {
@@ -146,7 +134,6 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .digits__section-title {
@@ -160,13 +147,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
 .table {
   width: 1100px;
   border-spacing: 0;
-  border: 1px solid red;
 }
 
 .digits__table {
@@ -177,7 +162,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
-  border: 1px solid red;
 }
 
 .table__cell{
@@ -185,7 +169,6 @@
   margin: 0;
   width: 250px;
   vertical-align: top;
-  border: 1px solid red;
 }
 
 .table__heading {
@@ -194,7 +177,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  border: 1px solid red;
 }
 
 .table__text {
@@ -203,10 +185,9 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid red;
 }
 
-.feinman {
+.feynman {
   height: 790px;
   background-color: #f2f2f2;
   display: flex;
@@ -218,26 +199,24 @@
   background-repeat: no-repeat;
 }
 
-.feinman__title {
+.feynman__title {
   width: 648px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   margin: 100px auto 0;
-  border: 1px solid red;
 }
 
-.feinman__subtitle {
+.feynman__subtitle {
   text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   margin: 70px auto 0;
-  border: 1px solid red;
 }
 
-.feinman__link {
+.feynman__link {
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
@@ -292,7 +271,6 @@
   justify-content: center;
   min-height: 350px;
   background-color: #1f1f1f;
-  border: 1px solid red;
 }
 
 .footer__columns {
@@ -300,14 +278,9 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
-  border: 1px solid red;
 }
 
-.footer__column {
-  border: 1px solid red;
-}
-
-.footer__column_content_copyroght {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -325,7 +298,6 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  border: 1px solid red;
 }
 
 .footer__column-heading {
@@ -334,7 +306,6 @@
   font-size: 18px;
   font-weight: bold;
   color: white;
-  border: 1px solid red;
 }
 
 .footer__column-links {
@@ -344,7 +315,6 @@
   font-weight: normal;
   list-style: none;
   padding: 0;
-  border: 1px solid red;
 }
 
 .footer__social-list {
@@ -355,7 +325,6 @@
 
 .footer__line {
   margin-bottom: 10px;
-  border: 1px solid red;
 }
 
 .footer__line:last-of-type {
@@ -372,5 +341,4 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  border: 1px solid red;
 }
