@@ -122,7 +122,7 @@
   font-weight: bold;
 }
 
-.flex-column {
+.digits {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -227,6 +227,9 @@
 }
 
 .kaufman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
@@ -317,10 +320,10 @@
   padding: 0;
 }
 
-.footer__social-list {
-  margin: 20px 0 16px;
-  padding: 0;
-  list-style: none;
+.footer__link {
+  text-decoration: none;
+  color: white;
+  display: flex;
 }
 
 .footer__line {
@@ -331,14 +334,9 @@
   margin-bottom: 0;
 }
 
-.footer__link {
-  text-decoration: none;
-  color: white;
-  display: flex;
-}
-
 .footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
+  align-self: center;
 }
